@@ -128,3 +128,5 @@ De este principio se desprende naturalmente la dualidad Onda Partícula
 <iframe src="https://www.desmos.com/calculator/9nzn3d3pzp?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 En el gráfico que se muestra, vemos 7 señales, las primeras 4 son funciones seno con frecuancias muy similares. Las 3 de abajo son: En morado: la suma de las dos primeras señales, en negro la suma de las primeras 3, en rojo la suma de las primeras 4. Vemos que a medida que añadimos ondas que varían poco en la frecuencia, los paquetes de onda van creciendo en aplitua y separándose entre sí. Esto da una intuición que si sumamos infinitas, vamos a quedar con un único paquete de onda.
+
+En teoría cuántica, los paquetes de onda representan objetos con propiedades duales onda partícula
