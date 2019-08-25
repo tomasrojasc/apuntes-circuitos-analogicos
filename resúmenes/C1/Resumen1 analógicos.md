@@ -1,4 +1,5 @@
 # Estudio analógicos:
+
 Nota: todo este documento es un resumen del apunte del curso que a su ez se basa en el Allison.
 
 # Primera parte del curso:
@@ -9,9 +10,9 @@ Nota: todo este documento es un resumen del apunte del curso que a su ez se basa
 
 + Problema: Mecánica clásica falla al predecir energia de radiación de calor
 
-para encontrar la densidad de energía $u(\omega)$ radiada a una frecuencia angular $\omega$ 
+para encontrar la densidad de energía $u(\omega)$ radiada a una frecuencia angular $\omega$
 
-La fórmula de Rayleigh-Jeans es 
+La fórmula de Rayleigh-Jeans es
 
 $$ u (\omega) = \frac{\omega^2Vk_BT}{\pi^2 c^3}$$
 
@@ -44,7 +45,7 @@ Se emite luz a placa de metal, esta emite electrones: li interesante &rarr; es q
 1. En la teoría clásica, la energía debería ser proporcional a la intensidad de la onda electromagnética incidente.
 2. En teoría clásica, habría un retardo en la emisión de los electrones.
 
-Plank propuso un oscilador que solo puede tener energías $E_n=n \hbar \omega; n\in \mathbb{N}^*$. 
+Plank propuso un oscilador que solo puede tener energías $E_n=n \hbar \omega; n\in \mathbb{N}^*$.
 
 Einstein postuló (ganó Nobel por esto): __Una onda electromagnética de frecuencia $\omega$ y energía $n \hbar \omega$ colapsa en (está compuesta de ) $n$ partículas (llamadas fotones) con energía $\hbar \omega$.__ De esto se desprende inmediatamente la cantidad de electrones emitidos y su relación con la intensidad (no con la energía)
 
@@ -60,14 +61,14 @@ Intenta explicar las líneas espectrales de los elementos
 si consideramos la atracción de un núcleo de H a su electron que le orbita tenemos que la fuerza entre ambos está dada por Coulomb:
 
 $$\vec{F}=-\frac{q^2}{4\pi \epsilon_0 r^2}=\frac{m_ev^2}{r}$$
- 
- 
+
+
  La energía del electron es la suma de la pontencial y kinética:
- 
+
  $$U=-\frac{q^2 }{4\pi \epsilon_0 r}$$
- 
+
  $$K=\frac{1}{2}m_ev^2=\frac{q^2}{8\pi \epsilon r}$$
- 
+
  $$E=-\frac{q^2}{8\pi\epsilon r}$$
 
 
@@ -97,7 +98,7 @@ Vimos que la luz se puede comportar como onda o como partícula, y experimentalm
 En palabras simples, la hipótesis de Allison dice lo siguiente:
 
 > "Si fotones de luz con longitud de onda $\lambda$ tienen momentum $p=h/\lambda$, entonces de más que es posible que partículas con momentum $p$ tengan asociada una frecuencia $\lambda$ y se comporten como ondas en ciertas condiciones."
-> 	
+>
 > -El xoro de Broglie
 
 Primero tenemos el postulado de Einstein:
@@ -119,7 +120,7 @@ Esta hipótesis se pudo comprobar en un experimento donde se dispara luz a un cr
 
 $$2d \cos \theta = n \lambda$$
 
-donde $\theta$ es el ángulo de incidencia y $d$ la distancia entre planos cristalinos. Esto si no me equivoco, es lo que se conoce como area transversal de scattering. Dato: Este hecho se usa en cristalografía por difracción de Rayos X, método por el cuál Rosalind Franklin descubrió la estructura molecular helicoidal del ADN en forma B. 
+donde $\theta$ es el ángulo de incidencia y $d$ la distancia entre planos cristalinos. Esto si no me equivoco, es lo que se conoce como area transversal de scattering. Dato: Este hecho se usa en cristalografía por difracción de Rayos X, método por el cuál Rosalind Franklin descubrió la estructura molecular helicoidal del ADN en forma B.
 
 De este principio se desprende naturalmente la dualidad Onda Partícula
 
@@ -129,4 +130,25 @@ De este principio se desprende naturalmente la dualidad Onda Partícula
 
 En el gráfico que se muestra, vemos 7 señales, las primeras 4 son funciones seno con frecuancias muy similares. Las 3 de abajo son: En morado: la suma de las dos primeras señales, en negro la suma de las primeras 3, en rojo la suma de las primeras 4. Vemos que a medida que añadimos ondas que varían poco en la frecuencia, los paquetes de onda van creciendo en aplitua y separándose entre sí. Esto da una intuición que si sumamos infinitas, vamos a quedar con un único paquete de onda.
 
-En teoría cuántica, los paquetes de onda representan objetos con propiedades duales onda partícula
+En teoría cuántica, los paquetes de onda representan objetos con propiedades duales onda partícula.
+
+### ¿Cuál es la velocidad de un paquete de onda?
+
+Tomemos una onda que viaja en sentido positivo en el eje $x$ con la siguiente expresión:
+
+$$A_0 \cos(\omega t -\beta x)$$
+
+$\beta$ es la constante de fase, se relaciona con la longitud de onda de la siguiente manera: $\beta=2\pi/\lambda$. Por lo general es conveniente usar representación exponencial:
+
+$$A_0 Re[exp(j(\omega t -\beta x)]$$
+Donde $j=i$ es la unidad imaginaria (sé que es común, pero aun no me acostumbro). Vamos a omitir la función de la parte real pq es un abuso de notación y un desperdicio de tinta y tecleo.
+
+La propagasión de una onda está determinada por 2 velocidades, las famosas velocidades de grupo y de fase, $v_g$ y $v_f$ respectivamente.
+
+[//]: # (TODO: Acá lo ideal sería motrar un gráfico animado que muestre la diferencia entre la velocidad de fase y la de grupo, ojala replicar lo del video pero en desmos)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tlM9vq-bepA?start=20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+En este video podemos ver la diferencia entre las dos velocidades antes dichas, podemos ver que pese a que en muchos casos la velocidad de fase es mayor que la de la luz, no implica una transferencia de información más rápida que $c$, por lo que no hay problema acá.
+
+La velocidad de fase se define como
