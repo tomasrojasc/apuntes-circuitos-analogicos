@@ -1,7 +1,10 @@
 # Estudio analógicos:
-Nota: todo este documento es un resumen del apunte del curso
+Nota: todo este documento es un resumen del apunte del curso que a su ez se basa en el Allison.
 
-## Radiación de cuerpo negro
+# Primera parte del curso:
+
+
+## Radiación de cuerpo negro (pg 1 Allison)
 
 
 + Problema: Mecánica clásica falla al predecir energia de radiación de calor
@@ -50,7 +53,7 @@ Si hay un potencial generado por el metal, que se encarga de quitarle energía a
 $$E_e=\hbar \omega - \phi$$
 
 
-## Átomo de Bohr
+## Átomo de Bohr (pg 7 Allison)
 
 Intenta explicar las líneas espectrales de los elementos
 
@@ -84,12 +87,18 @@ Asumiendo que el momento angular está cuantizado, tenemos:
 $$L=m_evr=n\hbar$$
 $$v^2=\frac{n^2 \hbar}{m^2_er^2}$$
 
-## La hipótesis de Louis de Broglie
+## La hipótesis de Louis de Broglie (pg. 12 Allison)
 
 Vimos que la luz se puede comportar como onda o como partícula, y experimentalmente se pueden mover objetos con luz.
 
 
 ### La hipótesis
+
+En palabras simples, la hipótesis de Allison dice lo siguiente:
+
+> "Si fotones de luz con longitud de onda $\lambda$ tienen momentum $p=h/\lambda$, entonces de más que es posible que partículas con momentum $p$ tengan asociada una frecuencia $\lambda$ y se comporten como ondas en ciertas condiciones."
+> 	
+> -El xoro de Broglie
 
 Primero tenemos el postulado de Einstein:
 $$E=\omega \hbar$$
@@ -101,19 +110,21 @@ Luego:
 
 $$p=\frac{\hbar\omega}{c}=\hbar k=\frac{hf}{c}=\frac{h}{\lambda}$$
 
+Pero en principio, $p$ puede serl el momentum de cualquier cosa, como consecuencia de esto, las longitudes de ondas asociadas a objetos cotidianas, son tan pequeñas que es muy dificil de medir y en la mayoría de las circunstancias imposible, peeeero, esto sirve para mostrar que los electrones y fotones no están solos, sino que ¡todas las particulas tienen asociadas longitudes de ondas!
+
+Recordar: $\omega=2\pi f$ y $\hbar=h/2\pi$ &rarr; $E=\hbar \omega$
 
 
+Esta hipótesis se pudo comprobar en un experimento donde se dispara luz a un cristal, hay interferencia constructiva si:
 
+$$2d \cos \theta = n \lambda$$
 
+donde $\theta$ es el ángulo de incidencia y $d$ la distancia entre planos cristalinos. Esto si no me equivoco, es lo que se conoce como area transversal de scattering. Dato: Este hecho se usa en cristalografía por difracción de Rayos X, método por el cuál Rosalind Franklin descubrió la estructura molecular helicoidal del ADN en forma B. 
 
+De este principio se desprende naturalmente la dualidad Onda Partícula
 
+## Paquetes de onda: velocidades de fase y grupo de las partículas (pg. 16 Allison)
 
+<iframe src="https://www.desmos.com/calculator/9nzn3d3pzp?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-
-
-
-
-
-
-
-
+En el gráfico que se muestra, vemos 7 señales, las primeras 4 son funciones seno con frecuancias muy similares. Las 3 de abajo son: En morado: la suma de las dos primeras señales, en negro la suma de las primeras 3, en rojo la suma de las primeras 4. Vemos que a medida que añadimos ondas que varían poco en la frecuencia, los paquetes de onda van creciendo en aplitua y separándose entre sí. Esto da una intuición que si sumamos infinitas, vamos a quedar con un único paquete de onda
