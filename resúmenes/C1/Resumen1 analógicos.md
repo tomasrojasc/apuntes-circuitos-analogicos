@@ -151,4 +151,22 @@ La propagasión de una onda está determinada por 2 velocidades, las famosas vel
 
 En este video podemos ver la diferencia entre las dos velocidades antes dichas, podemos ver que pese a que en muchos casos la velocidad de fase es mayor que la de la luz, no implica una transferencia de información más rápida que $c$, por lo que no hay problema acá.
 
-La velocidad de fase se define como
+La velocidad de fase se defineniendo en cuenta esto, tenemos que la velocidad de una fase es cuando:
+
+[//]: # (TODO: Explicar bien esto)
+
+$$\omega t - \beta x = \text{constante}$$
+
+Derivando con respecto al tiempo t despejando $dx/dt$ nos queda:
+
+$$v_f=\omega/\beta$$
+
+Notar que la fase acá hace referencia a la frecuencia en el tiempo de una onda. Recordemos $\omega$ es la frecuencia en el tiempo y $\beta$ en el espacio.
+
+[//]: # (TODO: llenar con la pg 19 del allison)
+
+Por otro lado la vel de grupo está dada por:
+
+$$v_g=\partial \omega/\partial\beta$$
+
+Es la velocidad a la que se mueve la energía, y por ende es siempre menor o igual a $c$
