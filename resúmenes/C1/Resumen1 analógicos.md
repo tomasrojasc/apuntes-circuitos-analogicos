@@ -115,6 +115,8 @@ Pero en principio, $p$ puede serl el momentum de cualquier cosa, como consecuenc
 
 Recordar: $\omega=2\pi f$ y $\hbar=h/2\pi$ &rarr; $E=\hbar \omega$
 
+> Nota: (Todas las fórmulas para el C1 se pueden encontrar en este [formulario](https://github.com/tomasrojasc/apuntes-circuitos-analogicos/blob/master/res%C3%BAmenes/C1/Formulario_C1_por_Camilo_R.pdf).)
+
 
 Esta hipótesis se pudo comprobar en un experimento donde se dispara luz a un cristal, hay interferencia constructiva si:
 
@@ -140,7 +142,7 @@ $$A_0 \cos(\omega t -\beta x)$$
 
 $\beta$ es la constante de fase, se relaciona con la longitud de onda de la siguiente manera: $\beta=2\pi/\lambda$. Por lo general es conveniente usar representación exponencial:
 
-$$A_0 Re[exp(j(\omega t -\beta x)]$$
+$$A_0 Re[\exp(j(\omega t -\beta x)]$$
 Donde $j=i$ es la unidad imaginaria (sé que es común, pero aun no me acostumbro). Vamos a omitir la función de la parte real pq es un abuso de notación y un desperdicio de tinta y tecleo.
 
 La propagasión de una onda está determinada por 2 velocidades, las famosas velocidades de grupo y de fase, $v_g$ y $v_f$ respectivamente.
@@ -170,3 +172,99 @@ Por otro lado la vel de grupo está dada por:
 $$v_g=\partial \omega/\partial\beta$$
 
 Es la velocidad a la que se mueve la energía, y por ende es siempre menor o igual a $c$
+
+
+Por hipótesis de De Broglie, tenemos que el momentum y la energía de una partícula son:
+
+$$p=mv=h/\lambda$$
+$$T=\frac{1}{2}mv^2=hf$$
+
+respectivamente.
+
+Pero también sabemos que una onda plana infinita, está descrita por $A_0\exp[-j(\omega t - \beta x)]$
+
+Como:
+
+$$\beta=\frac{2\pi}{\lambda}=\frac{2 \pi p}{h}=\frac{p}{\hbar}$$
+
+Se intuye la siguiente ecuación:
+
+$$\psi = A_0\exp[-j(Tt-px)/\hbar]$$
+
+Las velocidades asociadas a esta eq de Onda son:
+
+$$v_f= \frac{\omega}{\beta}=\frac{T}{p}=\frac{1}{2}\frac{mv^2}{mv}=\frac{v}{2}$$
+
+
+En el caso de una partícula individual tenemos que:
+
+
+$\partial \omega = (mv/\hbar)\partial v$
+
+$\partial \beta =(m/\hbar)\partial v$
+
+
+Usando esto, tenemos que la velocidad de grupoes:
+
+$$v_g=\partial \omega/ \partial \beta =v$$
+
+
+## La ecuación de onda de Schrödinger (pg. 21 Allison)
+
+Vimos que las partículas pueden poseer (o derechamente poseen) propiedades duales y que la función de densidad de probabilidad está descrita por una función $\psi$. Esta ecuación incluye la energía kinética de la partícula pero también es posible que haya un potencial asociado. De manera general, la energía de una partícula viene dada por:
+
+$$E=\hbar \omega = T+U$$
+
+Así la función de onda unidimensional, en el caso más general, pasa a ser:
+
+$$\psi = A_0 \exp[-j(Et-px)/\hbar]$$
+
+Si nos preguntamos, a cuál EDP satisface esta ecuación, nos acercamos a la ec del loco del gato.
+
+
+La ecuación, después de diferenciar una vez c/r a $t$ y dos c/r a $x$ y ver qué faltaba, es:
+
+$$\frac{\partial ^2 \psi}{\partial x^2}-\frac{2m}{\hbar^2}U\psi+j\frac{2m}{\hbar}\frac{\partial \psi}{\partial t}=0$$
+
+
+En 3D:
+
+$$\nabla^2\psi-\frac{2m}{\hbar^2}U\psi+j\frac{2m}{\hbar}\frac{\partial \psi}{\partial t}=0$$
+
+
+y en lo personal creo que queda más boni así:
+
+
+$$\left(\nabla^2+j\frac{2m}{\hbar}\frac{\partial }{\partial t}-\frac{2m}{\hbar^2}U\right)\psi=0$$
+
+
+Podemos intentar hacer una separación de variables.
+
+$$\psi = \Psi(x)\Gamma(t)$$
+
+Así:
+
+$$\frac{\hbar}{2m}\frac{1}{\Psi}\frac{d^2 \Psi}{dx^2}-V=-j\frac{\hbar}{\Gamma}\frac{d\Gamma}{dt}$$
+
+
+Así, resolviendo esto, con un potencial $V=V(x)$ podemos igualar cada parte a una cte $C$, así con esto en mente:
+
+$$\Gamma (t)=\exp{(jCt/\hbar)}$$
+
+Comparando con la ec anterior, tenemos $C=-E$
+
+De esta manera:
+
+$$\psi=\Psi(x) \exp{(-jEt/\hbar)}$$
+
+
+Una vez resuelto $\psi$ tenemos que el cuadrado de la función es la densidad de probabilidad de encontrar una partícula, y la normalizamos para que tenga sentido probabilístico:
+
+$$\iiint_{\Omega}\psi \psi^* dV=1$$
+$\Omega \in R^n$
+
+Donde $n=\dim(\text{Espacio})$
+
+
+
+## Principio de incertidumbre
