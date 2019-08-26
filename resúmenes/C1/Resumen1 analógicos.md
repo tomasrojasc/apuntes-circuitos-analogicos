@@ -276,4 +276,16 @@ Existen pares de variables que no pueden ser medidas experimentalmente con presi
 
 Esta __no__ es una limitación experimental, sino una limitación escencial de la naturaleza.
 
-> 
+> Nemotecnia no tan nemotcnia pq tiene sentido físico:
+> si vemos la función $\psi=A_0\exp{[-j(Et-px)/\hbar]}$
+> Nótese que las cantidades que no se pueden medir con exactitud arbitrariaa la vez están juntas en $\psi$.
+
+Tenemos las siguientes ecuaciones:
+
+$$\Delta E \Delta t \geq h$$
+
+Por otro lado,como ya habíamos visto:
+
+$$\Delta E=h\Delta f=mv \Delta v=v\Delta p$$
+
+$$\Delta p \Delta x \geq \hbar/2$$
