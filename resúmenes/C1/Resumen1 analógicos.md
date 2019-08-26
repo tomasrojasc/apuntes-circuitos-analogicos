@@ -268,3 +268,12 @@ Donde $n=\dim(\text{Espacio})$
 
 
 ## Principio de incertidumbre
+
+Existen pares de variables que no pueden ser medidas experimentalmente con presición arbitraria a la vez:
+
+  1. Por un lado, tenemos el par $(E,t)$
+  2. Tenemos el par $(p,x)$
+
+Esta __no__ es una limitación experimental, sino una limitación escencial de la naturaleza.
+
+> 
