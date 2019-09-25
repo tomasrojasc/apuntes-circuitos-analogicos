@@ -90,3 +90,11 @@ esto nos dice que por cada década de cambio en corriente, el voltaje del diodo 
 
 
 #### Región reverse bias
+
+A esta región se entra cuando el voltaje presente entre los terminales del diodo es negativo. En la ecuación de la curva $i-v$ tenemos que si $v$ es negativo t además tiene mayor magnitud que $V_T$, tenemos:
+
+$$
+i\approx -I_S
+$$
+
+Por eso se le llama la corriente de saturación. En la vida real los diodos presentan corrientes de saturación con una magnitud mucho mayor a $I_S$, aunque siguen siendo muy pequeñas
