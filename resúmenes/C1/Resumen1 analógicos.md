@@ -288,4 +288,8 @@ Por otro lado,como ya habíamos visto:
 
 $$\Delta E=h\Delta f=mv \Delta v=v\Delta p$$
 
+
+Así:
+
+
 $$\Delta p \Delta x \geq \hbar/2$$
